@@ -1,0 +1,120 @@
+/* public css
+-------------------------------------- */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+	font-weight: normal;
+}
+
+/* welcomePage css
+---------------------------------------- */
+#welcomePage {
+	width: 100%;
+	height: 1000px;
+	background-color: #019efd;
+	text-align: center;
+}
+.pageTitle {
+	display: none;
+	position: absolute;
+	font-size: 46px;
+	color: #fff;
+	width: 100%;
+}
+#wpDown {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+#wpDown a {
+	display: none;
+	font-size: 40px;
+	color: #fff;
+	text-decoration: none;
+}
+#wpDown a:hover{
+	color: #cc5200;
+	text-shadow: 2px 2px 5px #b34800,
+				2px -2px 5px #b34800,
+				-2px 2px 5px #803400;
+}
+
+/*gamePage css
+-------------------------------- */
+h1{
+	margin-top: 50px;
+	text-align: center;
+	color: #060d13;
+}
+#gamePage {
+	width: 100%;
+	background-color: #fff;
+}
+.container {
+	width: 960px;
+	margin: 0px auto;
+}
+input {
+	float: left;
+	width: 140px;
+	height: 140px;
+	margin: 50px 10px 0px 10px;
+	padding: 0px 80px;
+}
+/*feedback css
+------------------------------------------- */
+.feedbackCommon {
+	float: left;
+	height: 300px;
+	margin: 50px 8px 0px 8px;
+	border: 2px dotted #24a9e1;
+}
+#userSelFeedback {
+	width: 300px;
+}
+#result {
+	width: 300px;
+	border: 2px dotted #fff;
+	overflow: auto;
+}
+#comSelFeedback {
+	width: 300px;
+}
+.pLeft, .pRight {
+	display: inline-block;
+	width: 300px;
+	margin: 10px 8px;
+	color: #060d13;
+	text-align: center;
+	font-size: 2em;
+}
+.pLeftUnique {
+	margin-right: 330px;
+}
+
+.empty {
+	width: 300px;
+	height: 300px;
+}
+.rock {
+	width: 300px;
+	height: 300px;
+	background: url('../image/rockBig.jpg') no-repeat center center;
+}
+.paper {
+	width: 300px;
+	height: 300px;
+	background: url('../image/paperBig.jpg') no-repeat center center;
+}
+.scissors {
+	width: 300px;
+	height: 300px;
+	background: url('../image/scissorsBig.jpg') no-repeat center center;
+}
+
+/*clear
+-------------------- */
+.clear{
+	clear: both;
+}
