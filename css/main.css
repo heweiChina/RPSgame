@@ -61,6 +61,28 @@ input {
 	height: 140px;
 	margin: 50px 10px 0px 10px;
 	padding: 0px 80px;
+	outline: none;
+}
+#rock:hover{
+	position: relative;
+	top: -10px;
+}
+#rock:active{
+	top: 0px;
+}
+#paper:hover{
+	position: relative;
+	top: -10px;
+}
+#paper:active{
+	top: 0px;
+}
+#scissors:hover{
+	position: relative;
+	top: -10px;
+}
+#scissors:active{
+	top: 0px;
 }
 /*feedback css
 ------------------------------------------- */
